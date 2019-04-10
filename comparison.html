@@ -49,53 +49,40 @@
         </div>
     </nav>
 
-    <div class="container cont-margin">
+    <div class="container cont-margin box">
         <div class="row">
-            <div class="col-md-7 box-left col-xs-12">
-                <h3>Summary: Latitude vs. X</h3>
+            <div class="col-md-12">
+                <h3>Comparison: Latitude vs. X</h3>
                 <hr>
-                <div class="col-xs-12 col-md-9">
-                    <img src="Resources/assets/images/fig1.png" class="img-fluid float-left" alt="max temp graph">
-                </div>
-                <div class="pull-right">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to
-                        the equator. To
-                        accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset
-                        on
-                        over 500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-                        latitude.
-                        Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site
-                        provides
-                        the source data and visualizations created as part of the analysis, as well as explanations and
-                        descriptions of any trends and correlations witnessed.</p>
-                </div>
+                <p>Select any plot below for in-depth analysis:</p>
             </div>
-            <div class="col-md-4 box-right col-xs-12">
-                <h4>Visualizations</h4>
-                <hr>
-                <div class="row">
-                    <div class=" col-xs-3 col-md-6">
-                        <a href="maxtemp.html">
-                            <img src="Resources/assets/images/fig1.png" class="img-fluid" alt="max temp graph">
-                        </a>
-                    </div>
-                    <div class="col-xs-3 col-md-6">
-                        <a href="humidity.html">
-                            <img src="Resources/assets/images/fig2.png" class="img-fluid" alt="humidity graph">
-                        </a>
-                    </div>
-                    <div class="col-xs-3 col-md-6">
-                        <a href="cloudiness.html">
-                            <img src="Resources/assets/images/fig3.png" class="img-fluid" alt="cloudiness graph">
-                        </a>
-                    </div>
-                    <div class="col-xs-3 col-md-6">
-                        <a href="windspeed.html">
-                            <img src="Resources/assets/images/fig4.png" class="img-fluid" alt="windspeed graph">
-                        </a>
-                    </div>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 comp-title comp-pad">
+                <h5>vs. Max Temperature</h5>
+                <a href="maxtemp.html">
+                    <img src="Resources/assets/images/fig1.png" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-6 comp-title comp-pad">
+                <h5>vs. Humidity</h5>
+                <a href="humidity.html">
+                    <img src="Resources/assets/images/fig2.png" class="img-fluid">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 comp-title comp-pad">
+                <h5>vs. Cloudiness</h5>
+                <a href="cloudiness.html">
+                    <img src="Resources/assets/images/fig3.png" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-6 comp-title comp-pad">
+                <h5>vs. Windspeed</h5>
+                <a href="windspeed.html">
+                    <img src="Resources/assets/images/fig4.png" class="img-fluid">
+                </a>
             </div>
         </div>
     </div>
@@ -109,7 +96,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>
